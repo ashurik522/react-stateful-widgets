@@ -38,7 +38,6 @@ export default function Programmers() {
     // The beauty of closures is that we can "see" both slices of state from this region
     // of the program, without needing to inject the information through arguments.
     return programmers[currentProgrammer -1].name
-
   };
 
   const style = {
